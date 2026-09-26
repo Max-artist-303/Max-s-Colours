@@ -23,4 +23,10 @@ public static class CustomColours
         {
             ColorBrightness = CustomColorBrightness.Lighter,
         };
+
+                    public static CustomColor Colour { get; } =
+        new("Colour", new Color32(253, 240, 0, 1))
+        {
+            ColorBrightness = CustomColorBrightness.Lighter,
+        };
 }
