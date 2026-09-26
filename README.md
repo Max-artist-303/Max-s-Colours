@@ -1,2 +1,2 @@
 # Max-s-Colours
-Adds new colours via mira api.
+I've added the following colours blush, mogul and wet sand. THIS MOD REQUIRES MIRA API!!!!!!!!!!!!!!!!!!!!!!!!!!!
