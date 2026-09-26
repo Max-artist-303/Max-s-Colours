@@ -1,0 +1,26 @@
+using MiraAPI.Colors;
+using UnityEngine;
+
+namespace MaxsColours;
+
+[RegisterCustomColors]
+public static class CustomColours
+{
+    public static CustomColor Voltron { get; } =
+        new("Blush", new Color32(198, 163, 162, 0))
+        {
+            ColorBrightness = CustomColorBrightness.Darker,
+        };
+
+    public static CustomColor Mogol { get; } =
+        new("Mogol", new Color32(124, 100, 133, 255))
+        {
+            ColorBrightness = CustomColorBrightness.Lighter,
+        };
+
+            public static CustomColor WetSand { get; } =
+        new("Wet Sand", new Color32(176, 178, 130, 62))
+        {
+            ColorBrightness = CustomColorBrightness.Lighter,
+        };
+}
