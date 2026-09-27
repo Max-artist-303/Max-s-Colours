@@ -29,4 +29,10 @@ public static class CustomColours
         {
             ColorBrightness = CustomColorBrightness.Lighter,
         };
+
+            public static CustomColor Lacking { get; } =
+        new("Lacking", new Color32(171, 198, 185, 255))
+        {
+            ColorBrightness = CustomColorBrightness.Lighter,
+        };
 }
